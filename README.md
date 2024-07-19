@@ -27,5 +27,3 @@ by changing minor things, adding new features or even changing the proposed feat
 > - Add more details to the description 🚧
 > - Add more details around dependencies 📝
 > - Add more details on how to run it locally 🚧
-- [] Create the repository on Github
-- [] Push changes to the repository
