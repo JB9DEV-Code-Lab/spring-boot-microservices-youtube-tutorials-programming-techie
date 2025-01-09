@@ -27,3 +27,14 @@ by changing minor things, adding new features or even changing the proposed feat
 > - Add more details to the description 🚧
 > - Add more details around dependencies 📝
 > - Add more details on how to run it locally 🚧
+
+TODO:
+- [] add a new maven module called Discovery Server, that will use Eureka Server dependency
+- [] add the Eureka Server to its pom.xml
+- [] add the group id dependency, from the dependency management into root pom.xml (remember to set the version)
+- [] create the DiscoveryServerApplication file as a Spring Boot one and add the EurekaServer annotation
+- [] create the application.properties with the following properties:
+  - eureka.server.hostname=localhost
+  - eureka.client.register-with-client=false
+  - may be missing one related with client
+  - server.port=8761 // default one for the eureka server
